@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="319" id="KGk-i7-Jjw" customClass="NodateCell" customModule="eXiaoYuan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nodate1.png" translatesAutoresizingMaskIntoConstraints="NO" id="upj-Nu-TpS">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="KYc-zV-dRt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KYc-zV-dRt"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="203"/>
+                            <mask key="constraints">
+                                <include reference="KYc-zV-dRt"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赶紧去报名哦！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3b-8q-6Q1">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="lrV-D3-PYs"/>
+                            <constraint firstAttribute="height" constant="21" id="qi8-n5-BqD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.46391092630000003" green="0.47999850859999998" blue="0.56997075360000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lrV-D3-PYs"/>
+                                <exclude reference="qi8-n5-BqD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="80" y="211" width="160" height="21"/>
+                            <mask key="constraints">
+                                <include reference="lrV-D3-PYs"/>
+                                <include reference="qi8-n5-BqD"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="upj-Nu-TpS" secondAttribute="trailing" id="3h7-m6-eBN"/>
+                    <constraint firstItem="upj-Nu-TpS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9w6-L5-jYc"/>
+                    <constraint firstAttribute="centerX" secondItem="Z3b-8q-6Q1" secondAttribute="centerX" id="eDl-4E-gbL"/>
+                    <constraint firstItem="Z3b-8q-6Q1" firstAttribute="top" secondItem="upj-Nu-TpS" secondAttribute="bottom" constant="8" id="iox-Rn-pD7"/>
+                    <constraint firstItem="upj-Nu-TpS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zXk-9l-uHW"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="upj-Nu-TpS"/>
+                        <exclude reference="Z3b-8q-6Q1"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="3h7-m6-eBN"/>
+                        <exclude reference="9w6-L5-jYc"/>
+                        <exclude reference="zXk-9l-uHW"/>
+                        <exclude reference="eDl-4E-gbL"/>
+                        <exclude reference="iox-Rn-pD7"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="upj-Nu-TpS"/>
+                        <include reference="Z3b-8q-6Q1"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="3h7-m6-eBN"/>
+                        <include reference="9w6-L5-jYc"/>
+                        <include reference="zXk-9l-uHW"/>
+                        <include reference="eDl-4E-gbL"/>
+                        <include reference="iox-Rn-pD7"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="600" y="520.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nodate1.png" width="320" height="320"/>
+    </resources>
+</document>

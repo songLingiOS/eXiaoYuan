@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (1.2.3)
+  - DropdownMenu (1.0.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 1.2.3)
+  - DropdownMenu
+  - SDWebImage (~> 3.7)
+  - SwiftyJSON (~> 2.2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  DropdownMenu: 5777e17ac6ddbc69b151719b83a838da81440786
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.39.0
