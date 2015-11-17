@@ -22,7 +22,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     }
     
     @IBAction func loginBtnClk(sender: UIButton) {
-        NSLog("点击登陆")
+        NSLog("点击登陆  ")
         addPermissionUsr()
         
     }
@@ -32,25 +32,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     Navigation外观
     */
     func setNavigationBar(){
-        //        navigationBar常用属性
-        //        一. 对navigationBar直接配置,所以该操作对每一界面navigationBar上显示的内容都会有影响(效果是一样的)
-        //        1.修改navigationBar颜色
-        //        self.navigationController.navigationBar.barTintColor = [UIColor redColor];
-        //
-        //        2.关闭navigationBar的毛玻璃效果
-        //        self.navigationController.navigationBar.translucent = NO;
-        //        3.将navigationBar隐藏掉
-        //
-        //        self.navigationController.navigationBarHidden = YES;
-        //
-        //        4.给navigationBar设置图片
-        //        不同尺寸的图片效果不同:
-        //        1.320 * 44,只会给navigationBar附上图片
-        //
-        //        2.高度小于44,以及大于44且小于64:会平铺navigationBar以及状态条上显示
-        //
-        //        3.高度等于64:整个图片在navigationBar以及状态条上显示
-        
+  
         //1、返回标签
         let item = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = item
