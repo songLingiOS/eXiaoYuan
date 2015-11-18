@@ -120,7 +120,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
             let data = dataTemp["data"]
             
             if "100" == dataTemp["result"].stringValue{
-                NSLog("获取到新闻数据数据")
+                NSLog("获取到报名信息")
                 let data = dataTemp["data"]
                 var temp = UsrClass()
                 myClass = []
