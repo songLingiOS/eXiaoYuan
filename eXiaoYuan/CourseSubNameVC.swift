@@ -94,6 +94,7 @@ class CourseSubNameVC: UITableViewController {
                     courseInfoTemp.c_keyid = temp["c_keyid"].stringValue
                     courseInfoTemp.c_brief = temp["c_brief"].stringValue
                     courseInfoTemp.name = temp["name"].stringValue
+                    courseInfoTemp.c_institution = temp["c_institution"].stringValue
                     
                     subCourseName.append(courseInfoTemp)
                 }
@@ -160,7 +161,7 @@ class CourseSubNameVC: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ClassNameCell") as! ClassNameCell
         
-        cell.courseName.text = subCourseName[indexPath.row].name + "报名进行中..."
+        cell.courseName.text = subCourseName[indexPath.row].c_name + "报名进行中..."
         
         return cell
     }

@@ -85,7 +85,7 @@ class SignUpVC: UIViewController {
         courseName.layer.cornerRadius = 4
         courseName.layer.borderColor = UIColor(red: 231/255, green: 231/255, blue: 231/255, alpha: 1 ).CGColor
 
-        school.text = "   " + courseInfo.name
+        school.text = "   " + courseInfo.c_institution
         courseName.text = "   " + courseInfo.c_name
         
         

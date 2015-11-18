@@ -32,6 +32,8 @@ struct UsrClass {
     var tcid = ""
     var tel = ""
     var userid = ""
+    
+    
 
 }
 

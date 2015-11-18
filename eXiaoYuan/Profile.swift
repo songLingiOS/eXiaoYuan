@@ -22,7 +22,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     }
     
     @IBAction func loginBtnClk(sender: UIButton) {
-        NSLog("点击登陆  ")
+        NSLog("点击登陆")
         addPermissionUsr()
         
     }
@@ -137,10 +137,9 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
                     temp.coursename = d["coursename"].stringValue
                     temp.name = d["name"].stringValue
                     temp.tcid = d["tcid"].stringValue
+                    
                    
-                    myClass.append(temp)
-                    
-                    
+                    myClass.append(temp)  
                 }
                 
                 tableview.reloadData()

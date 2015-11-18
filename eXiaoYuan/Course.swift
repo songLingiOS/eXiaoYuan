@@ -17,4 +17,6 @@ struct CourseInfo {
     var c_keyid = ""
     var c_brief = ""
     var name = ""
+    
+    var c_institution = ""
 }
