@@ -149,6 +149,8 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     }
     
     
+    
+    
     //取消通知订阅
     deinit{
         NSNotificationCenter.defaultCenter().removeObserver(self)

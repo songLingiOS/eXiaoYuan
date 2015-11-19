@@ -61,6 +61,7 @@
 		92159AEE1BEB4621001F9236 /* TableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92159AED1BEB4621001F9236 /* TableViewHeaderView.xib */; };
 		92159AF11BEB4C13001F9236 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92159AEF1BEB4C13001F9236 /* CommentCell.swift */; };
 		92159AF21BEB4C13001F9236 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92159AF01BEB4C13001F9236 /* CommentCell.xib */; };
+		9217D3861BFD5B4700764893 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217D3851BFD5B4700764893 /* SettingVC.m */; };
 		92879EC01BFC303800244609 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 92879EBF1BFC303800244609 /* launchScreen.png */; };
 		92AB8CF41BE7414200149778 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB8CCA1BE7414200149778 /* MJRefreshAutoFooter.m */; };
 		92AB8CF51BE7414300149778 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB8CCC1BE7414200149778 /* MJRefreshBackFooter.m */; };
@@ -178,6 +179,8 @@
 		92159AED1BEB4621001F9236 /* TableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewHeaderView.xib; sourceTree = "<group>"; };
 		92159AEF1BEB4C13001F9236 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		92159AF01BEB4C13001F9236 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		9217D3841BFD5B4700764893 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		9217D3851BFD5B4700764893 /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
 		92879EBF1BFC303800244609 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 		92AB8CC91BE7414200149778 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		92AB8CCA1BE7414200149778 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
@@ -392,6 +395,8 @@
 			isa = PBXGroup;
 			children = (
 				921293181BF087CF0093C297 /* Profile.swift */,
+				9217D3841BFD5B4700764893 /* SettingVC.h */,
+				9217D3851BFD5B4700764893 /* SettingVC.m */,
 			);
 			name = profile;
 			sourceTree = "<group>";
@@ -786,6 +791,7 @@
 				92159AEA1BEB2AD7001F9236 /* CommentVC.swift in Sources */,
 				920C3C0B1BE9DA6700FFC26D /* IQBarButtonItem.m in Sources */,
 				920C3C0C1BE9DA6700FFC26D /* IQTitleBarButtonItem.m in Sources */,
+				9217D3861BFD5B4700764893 /* SettingVC.m in Sources */,
 				920C3C031BE9DA6700FFC26D /* IQUITextFieldView+Additions.m in Sources */,
 				920C3C0E1BE9DA6700FFC26D /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				92AB8CFA1BE7414300149778 /* MJRefreshAutoNormalFooter.m in Sources */,
