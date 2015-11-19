@@ -10,8 +10,11 @@ import Foundation
 
 
 
+
+
 //用户登录全局变量
 var usrInfo = UsrInfo()
+
 
 
 
@@ -32,6 +35,8 @@ struct UsrClass {
     var tcid = ""
     var tel = ""
     var userid = ""
+    
+    
 
 }
 

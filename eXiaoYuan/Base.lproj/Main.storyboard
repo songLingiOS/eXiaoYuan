@@ -766,7 +766,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开课学校" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5o-XA-qrt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="培训机构" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5o-XA-qrt">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="1Ou-Fw-PL1"/>
@@ -1303,10 +1303,10 @@
             </objects>
             <point key="canvasLocation" x="2383.5" y="-117"/>
         </scene>
-        <!--Table View Controller-->
+        <!--SettingVC-->
         <scene sceneID="I9n-Lo-oMf">
             <objects>
-                <tableViewController id="Ka3-w2-1nP" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="SettingVC" storyboardIdentifier="SettingVC" id="Ka3-w2-1nP" customClass="SettingVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jjw-4D-RG0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
