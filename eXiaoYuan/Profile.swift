@@ -22,7 +22,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     }
     
     @IBAction func loginBtnClk(sender: UIButton) {
-        NSLog("点击登陆  ")
+        NSLog("点击登陆")
         addPermissionUsr()
         
     }
@@ -120,7 +120,7 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
             let data = dataTemp["data"]
             
             if "100" == dataTemp["result"].stringValue{
-                NSLog("获取到新闻数据数据")
+                NSLog("获取到报名信息")
                 let data = dataTemp["data"]
                 var temp = UsrClass()
                 myClass = []
@@ -137,10 +137,9 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
                     temp.coursename = d["coursename"].stringValue
                     temp.name = d["name"].stringValue
                     temp.tcid = d["tcid"].stringValue
+                    
                    
-                    myClass.append(temp)
-                    
-                    
+                    myClass.append(temp)  
                 }
                 
                 tableview.reloadData()
@@ -148,6 +147,8 @@ class Profile: UIViewController ,UITableViewDataSource,UITableViewDelegate{
             }
         }
     }
+    
+    
     
     
     //取消通知订阅
