@@ -73,7 +73,7 @@
     if (indexPath.section == 1 && indexPath.row == 0) {
         
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"联系客服" message:@"客服热线:18798812521" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"联系客服" message:@"客服热线:10086" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
         alert.tag = 100;
         alert.delegate = self;
         [alert show];
@@ -84,10 +84,10 @@
     }
     if (indexPath.section == 2 && indexPath.row == 0) {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"退出登陆" message:@"确定退出？" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
-        alert.tag = 101;
-        alert.delegate = self;
-        [alert show];
+        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"退出登陆" message:@"确定退出？" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
+        alert1.tag = 101;
+        alert1.delegate = self;
+        [alert1 show];
     }
     
     
@@ -103,10 +103,10 @@
 
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    
+    NSString *allString = [NSString stringWithFormat:@"tel:10086"];
     if (alertView.tag == 100 && buttonIndex == 0) {
         NSLog(@"xxxxxxxx");
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"18798812521"]];
+         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:allString]];
     }
     if (alertView.tag == 101 && buttonIndex == 0) {
         NSLog(@"0000000");
