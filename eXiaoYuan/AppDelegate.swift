@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     /*3:14*/
     
+    /*3：27*/
     
 
     func applicationWillResignActive(application: UIApplication) {
