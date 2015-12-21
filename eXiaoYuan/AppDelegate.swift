@@ -43,6 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /*测试1221-2：38*/
     
+    /*测试2：43*/
+    
     
 
     func applicationWillResignActive(application: UIApplication) {
