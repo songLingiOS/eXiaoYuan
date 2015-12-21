@@ -34,6 +34,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     */
     func create(){
         NSLog("练习GitHub的使用")
+        /**
+        测试github
+        */
     }
     
     /*fork 测试*/
