@@ -84,6 +84,8 @@
 		92AB8D061BE7414300149778 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB8CF31BE7414200149778 /* UIView+MJExtension.m */; };
 		92AB8D091BE7442A00149778 /* FirstPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB8D081BE7442A00149778 /* FirstPageVC.swift */; };
 		92AB8D0D1BE75F9E00149778 /* SCTabBtnScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB8D0C1BE75F9E00149778 /* SCTabBtnScrollView.m */; };
+		E17CCE3B1C04018B00DA2CBA /* AboutYaoDe.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CCE381C04018B00DA2CBA /* AboutYaoDe.m */; };
+		E17CCE3C1C04018B00DA2CBA /* Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CCE3A1C04018B00DA2CBA /* Modify.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +225,10 @@
 		92AB8D081BE7442A00149778 /* FirstPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageVC.swift; sourceTree = "<group>"; };
 		92AB8D0B1BE75F9E00149778 /* SCTabBtnScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTabBtnScrollView.h; sourceTree = "<group>"; };
 		92AB8D0C1BE75F9E00149778 /* SCTabBtnScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTabBtnScrollView.m; sourceTree = "<group>"; };
+		E17CCE371C04018B00DA2CBA /* AboutYaoDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutYaoDe.h; sourceTree = "<group>"; };
+		E17CCE381C04018B00DA2CBA /* AboutYaoDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutYaoDe.m; sourceTree = "<group>"; };
+		E17CCE391C04018B00DA2CBA /* Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modify.h; sourceTree = "<group>"; };
+		E17CCE3A1C04018B00DA2CBA /* Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modify.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +403,10 @@
 				921293181BF087CF0093C297 /* Profile.swift */,
 				9217D3841BFD5B4700764893 /* SettingVC.h */,
 				9217D3851BFD5B4700764893 /* SettingVC.m */,
+				E17CCE371C04018B00DA2CBA /* AboutYaoDe.h */,
+				E17CCE381C04018B00DA2CBA /* AboutYaoDe.m */,
+				E17CCE391C04018B00DA2CBA /* Modify.h */,
+				E17CCE3A1C04018B00DA2CBA /* Modify.m */,
 			);
 			name = profile;
 			sourceTree = "<group>";
@@ -677,6 +687,7 @@
 				TargetAttributes = {
 					9213C0391BE30EC400348092 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = U5W66BUPDN;
 					};
 					9213C04E1BE30EC400348092 = {
 						CreatedOnToolsVersion = 6.4;
@@ -788,6 +799,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17CCE3C1C04018B00DA2CBA /* Modify.m in Sources */,
 				92159AEA1BEB2AD7001F9236 /* CommentVC.swift in Sources */,
 				920C3C0B1BE9DA6700FFC26D /* IQBarButtonItem.m in Sources */,
 				920C3C0C1BE9DA6700FFC26D /* IQTitleBarButtonItem.m in Sources */,
@@ -796,6 +808,7 @@
 				920C3C0E1BE9DA6700FFC26D /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				92AB8CFA1BE7414300149778 /* MJRefreshAutoNormalFooter.m in Sources */,
 				92159AF11BEB4C13001F9236 /* CommentCell.swift in Sources */,
+				E17CCE3B1C04018B00DA2CBA /* AboutYaoDe.m in Sources */,
 				92AB8CFD1BE7414300149778 /* MJRefreshBackNormalFooter.m in Sources */,
 				920C3C061BE9DA6700FFC26D /* IQUIWindow+Hierarchy.m in Sources */,
 				92AB8CF51BE7414300149778 /* MJRefreshBackFooter.m in Sources */,
@@ -975,13 +988,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (Q273WKP52R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = eXiaoYuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e6c39d71-eff8-4abb-ac4e-24934595a78b";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "eXiaoYuan/eXiaoYuan-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -993,13 +1006,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (Q273WKP52R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = eXiaoYuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e6c39d71-eff8-4abb-ac4e-24934595a78b";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "eXiaoYuan/eXiaoYuan-Bridging-Header.h";
 			};
 			name = Release;
