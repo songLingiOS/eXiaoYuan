@@ -42,7 +42,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /*fork 测试*/
     
     /*测试1221-2：38*/
+
+    /*3:14*/
     
+    /*3：27*/
     
 
     func applicationWillResignActive(application: UIApplication) {
