@@ -54,6 +54,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //123456
     //78910
     //00000000004:50
+    
+    //2015-12-22 AM10:26
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
